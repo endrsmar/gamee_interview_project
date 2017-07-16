@@ -1,0 +1,8 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Copyright (c) 2017 Martin Endršt (endrst.martin@gmail.com)
+${licensePrefix}Created as part of interview process at GAMEE
+<#if licenseLast??>
+${licenseLast}
+</#if>

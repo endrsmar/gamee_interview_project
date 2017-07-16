@@ -1,0 +1,16 @@
+{
+    "name": "endrsmar/gamee_interview_project",
+    "description": "Project solving task given as part of interview process at GAMEE",
+    "type": "application",
+    "authors": [
+        {
+            "name": "Martin Endršt",
+            "email": "endrst.martin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Endrsmar\\GameeInterviewProject\\": "src/"}
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}

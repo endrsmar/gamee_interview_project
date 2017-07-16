@@ -1,0 +1,10 @@
+services:
+    watchPersistence:
+        class: Endrsmar\GameeInterviewProject\DAL\WatchPersistence
+        # to use MySql for watch info retrieval:
+        factory: Endrsmar\GameeInterviewProject\DAL\Adapters\MySqlWatchAdapter
+        # to use XML for watch info retrieval:
+        #factory: Endrsmar\GameeInterviewProject\DAL\Adapters\XmlWatchAdapter]
+    cache:
+        class: Endrsmar\GameeInterviewProject\Caching\CacheProvider
+        factory: Endrsmar\GameeInterviewProject\Caching\FileCacheProvider
